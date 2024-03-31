@@ -17,7 +17,7 @@ int BS(int n[], int d, int l, int r) {
     return 0;
 }
 
-
+// main
 int main() {
     int n[9] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
