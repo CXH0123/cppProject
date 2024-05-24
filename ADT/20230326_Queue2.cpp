@@ -1,7 +1,6 @@
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
-//а╢╤сап 
 struct Queue{
 	int data[5];
 	int MAXSIZE=5;

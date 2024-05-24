@@ -9,9 +9,9 @@ int main() {
     int n, c, t, sum = 0;
     vector<int> a;
 
-    cin >> n >> c;
+    scanf("%d%d",&n,&c);
     for (int i = 0; i < n; i++) {
-        cin >> t;
+        scanf("%d",&t);
         a.push_back(t);
     }
     sort(a.begin(), a.end(), cmp);

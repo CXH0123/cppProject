@@ -37,20 +37,20 @@ public:
 
     void pop() {
         if (isEmpty()) {
-            printf("list is empty");
+            printf("list is empty\n");
             return;
         }
         count--;
         Node<T> *temp = head;
 
         head = head->next;
-
+ 
         free(temp);
     }
 
     void show() {
         if (isEmpty()) {
-            printf("list is empty");
+            printf("list is empty\n");
             return;
         }
         display();
