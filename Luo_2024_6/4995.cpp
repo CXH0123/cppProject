@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-int a[301], sum, maxn = -114, imax;
+long long a[301], sum, maxn = -114, imax;
 int main() {
     int n, x;
 
