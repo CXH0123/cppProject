@@ -14,7 +14,6 @@ int main() {
     a[n - 1] = -1;
     for (int i = 0; i < n; i++) {
         int maxn = -114, index;
-
         for (int j = n - 2; j >= 0; j--) {
             if ((abs(x - a[j]) > maxn) && (a[j] != -1)) {
                 index = i;
